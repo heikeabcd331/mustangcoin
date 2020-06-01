@@ -1,1 +1,1 @@
-# golden-ratio
+# mustangcoin
