@@ -24,9 +24,9 @@ Genesis: June 18th, 2020
 
 # How To Compile
 Ubuntu 18.04
-"git clone https://github.com/heikeabcd331/mustangcoin.git"
-"cd clone"
-"make"
+```git clone https://github.com/heikeabcd331/mustangcoin.git
+cd clone
+make```
 # 使用说明
 xxxx
 xxxx
