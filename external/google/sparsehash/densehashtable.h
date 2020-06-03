@@ -589,8 +589,7 @@ class dense_hashtable {
       // insert.  Might as well grow now, since we're already going
       // through the trouble of copying (in order to purge the
       // deleted elements).
-      const size_type target =
-          static_cast<size_type>(settings.shrink_size(resize_to*2));
+      const size_type target = settings.shrink_size(resize_to*2);
       if (num_elements - num_deleted + delta >= target) {
         // Good, we won't be below the shrink threshhold even if we double.
         resize_to *= 2;

@@ -1,2 +1,0 @@
-C:\Users\EDZ\Documents\GitHub\mustangcoin\build\src\Debug\Serialization.pdb
-C:\Users\EDZ\Documents\GitHub\mustangcoin\build\src\Serialization.dir\Debug\Serialization.pdb

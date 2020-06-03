@@ -1,2 +1,0 @@
-C:\Users\EDZ\Documents\GitHub\mustangcoin\build\src\Debug\System.pdb
-C:\Users\EDZ\Documents\GitHub\mustangcoin\build\src\System.dir\Debug\System.pdb
