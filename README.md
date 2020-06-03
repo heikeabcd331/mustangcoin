@@ -1,14 +1,23 @@
 # MustangCoin
-*Coin Name: MustangCoin
-*Ticker: mtc
-*PoW Algorithm: cn0 /mtc
-*Supply: 61,800,000.00 mus with 2 decimal places
-*Emission speed: 18
-*Pre-mined: 0% for future development
-*Difficulty target: 90 seconds
-*P2P port: 15112
-*RPC port: 15876
-*Genesis: June 18th, 2020
+Coin Name: MustangCoin
+
+Ticker: mtc
+
+PoW Algorithm: cn0 /mtc
+
+Supply: 61,800,000.00 mus with 2 decimal places
+
+Emission speed: 18
+
+Pre-mined: 0% for future development
+
+Difficulty target: 90 seconds
+
+P2P port: 15112
+
+RPC port: 15876
+
+Genesis: June 18th, 2020
 
 # 软件架构
 软件架构说明
