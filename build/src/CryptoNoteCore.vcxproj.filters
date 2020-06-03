@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Account.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\BlockIndex.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Blockchain.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\BlockchainIndices.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\BlockchainMessages.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Checkpoints.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Core.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CoreConfig.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteBasic.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteBasicImpl.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteFormatUtils.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteSerialization.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteTools.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Currency.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Difficulty.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\IBlock.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\ITimeProvider.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Miner.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\MinerConfig.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\SwappedMap.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\SwappedVector.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Transaction.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\TransactionExtra.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\TransactionPool.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\TransactionPrefixImpl.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\TransactionUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteConfig.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Account.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\BlockIndex.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Blockchain.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\BlockchainIndices.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\BlockchainMessages.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Checkpoints.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Core.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CoreConfig.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteBasic.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteBasicImpl.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteFormatUtils.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteSerialization.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteStatInfo.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\CryptoNoteTools.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Currency.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Difficulty.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\IBlock.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\IBlockchainStorageObserver.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\ICore.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\ICoreObserver.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\IMinerHandler.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\ITimeProvider.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\ITransactionValidator.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\ITxPoolObserver.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\IntrusiveLinkedList.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\MessageQueue.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\Miner.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\MinerConfig.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\OnceInInterval.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\SwappedMap.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\SwappedVector.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\TransactionApi.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\TransactionApiExtra.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\TransactionExtra.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\TransactionPool.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\TransactionUtils.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\CryptoNoteCore\VerificationContext.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\build\CMakeFiles\987eabab959896916eccb3556cce445b\tests.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\build\tests\CMakeFiles\tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B1FCD650-3A61-38A0-A9EB-89946945AB06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

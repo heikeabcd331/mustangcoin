@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\CheckRingSignature.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\ConstructTransaction.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\CryptoNoteSlowHash.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\DerivePublicKey.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\DeriveSecretKey.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\GenerateKeyDerivation.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\GenerateKeyImage.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\GenerateKeyImageHelper.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\IsOutToAccount.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\MultiTransactionTestBase.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\PerformanceTests.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\PerformanceUtils.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\SingleTransactionTestBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

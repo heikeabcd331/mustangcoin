@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\ArrayRefTests.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\ArrayViewTests.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\Base58.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\BlockReward.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\BlockingQueue.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\Chacha8.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\Checkpoints.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\DecomposeAmountIntoDigits.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\EventWaiter.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\ICoreStub.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\ICryptoNoteProtocolQueryStub.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\INodeStubs.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\MulDiv.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\ParseAmount.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\PaymentGateTests.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\Serialization.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\SerializationKV.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\Shuffle.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\StringBufferTests.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\StringViewTests.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestBcS.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestBlockchainExplorer.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestBlockchainGenerator.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestCurrency.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestFormatUtils.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestInprocessNode.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestJsonValue.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestMessageQueue.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestPath.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestPeerlist.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestProtocolPack.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestTransactionPoolDetach.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestTransfers.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestTransfersConsumer.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestTransfersContainer.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestTransfersContainerKeyImage.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestTransfersSubscription.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestWallet.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestWalletLegacy.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestWalletService.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TransactionApi.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TransactionApiHelpers.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TransactionPool.cpp" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\EventWaiter.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\ICoreStub.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\ICryptoNoteProtocolQueryStub.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\INodeStubs.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TestBlockchainGenerator.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TransactionApiHelpers.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\TransfersObserver.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\UnitTests\UnitTestsUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

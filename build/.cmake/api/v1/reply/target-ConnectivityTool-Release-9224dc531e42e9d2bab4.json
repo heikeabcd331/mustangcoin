@@ -1,0 +1,332 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/Release/connectivity_tool.exe"
+		},
+		{
+			"path" : "src/Release/connectivity_tool.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 115,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MT /O2 /Ob2 /DNDEBUG   /bigobj /MP /W3 /GS- /D_CRT_SECURE_NO_WARNINGS /wd4996 /wd4345 /D_WIN32_WINNT=0x0600 /DWIN32_LEAN_AND_MEAN /DGTEST_HAS_TR1_TUPLE=0 /D_VARIADIC_MAX=8 /D__SSE4_1__"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "STATICLIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/EDZ/Documents/GitHub/mustangcoin/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/EDZ/Documents/GitHub/mustangcoin/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/EDZ/Documents/GitHub/mustangcoin/external"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/EDZ/Documents/GitHub/mustangcoin/build/version"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/EDZ/Documents/GitHub/mustangcoin/src/Platform/Windows"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "C:/Users/EDZ/Documents/GitHub/mustangcoin/src/platform/msc"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "C:/local/boost_1_69_0"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "System::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Common::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "version::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Crypto::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "P2P::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Http::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CryptoNoteCore::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Serialization::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Logging::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Rpc::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "ConnectivityTool::@145eef247bfb46b6828c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MT /O2 /Ob2 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /STACK:10485760 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Release\\CryptoNoteCore.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Release\\Common.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Release\\Logging.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Release\\Crypto.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Release\\P2P.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Release\\Rpc.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Release\\Http.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Release\\Serialization.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Release\\System.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_system-vc141-mt-s-x64-1_69.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_filesystem-vc141-mt-s-x64-1_69.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_thread-vc141-mt-s-x64-1_69.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_date_time-vc141-mt-s-x64-1_69.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_chrono-vc141-mt-s-x64-1_69.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_regex-vc141-mt-s-x64-1_69.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_serialization-vc141-mt-s-x64-1_69.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_program_options-vc141-mt-s-x64-1_69.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\local\\boost_1_69_0\\lib64-msvc-14.1\\libboost_atomic-vc141-mt-s-x64-1_69.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ConnectivityTool",
+	"nameOnDisk" : "connectivity_tool.exe",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ConnectivityTool/ConnectivityTool.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

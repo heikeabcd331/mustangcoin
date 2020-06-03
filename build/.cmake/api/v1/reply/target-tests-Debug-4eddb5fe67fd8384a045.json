@@ -1,0 +1,100 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "CoreTests::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "UnitTests::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "DifficultyTests::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "HashTargetTests::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "IntegrationTests::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "TransfersTests::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "SystemTests::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "PerformanceTests::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "NodeRpcProxyTests::@a44f0ac069e85531cdee"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "tests"
+	},
+	"id" : "tests::@a44f0ac069e85531cdee",
+	"name" : "tests",
+	"paths" : 
+	{
+		"build" : "tests",
+		"source" : "tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/tests/CMakeFiles/tests",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/987eabab959896916eccb3556cce445b/tests.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

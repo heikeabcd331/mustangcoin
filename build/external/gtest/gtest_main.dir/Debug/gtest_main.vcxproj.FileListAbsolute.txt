@@ -1,0 +1,2 @@
+C:\Users\EDZ\Documents\GitHub\mustangcoin\build\external\gtest\Debug\gtest_main.pdb
+C:\Users\EDZ\Documents\GitHub\mustangcoin\build\external\gtest\gtest_main.dir\Debug\gtest_main.pdb

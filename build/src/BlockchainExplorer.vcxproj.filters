@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\BlockchainExplorer\BlockchainExplorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\BlockchainExplorer\BlockchainExplorerDataBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\BlockchainExplorer\BlockchainExplorerErrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\BlockchainExplorer\BlockchainExplorer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\BlockchainExplorer\BlockchainExplorerDataBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\src\BlockchainExplorer\BlockchainExplorerErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5F935A5C-31C6-3908-B538-D950B910D7D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5F711BE1-7692-331F-BE68-8AFEE1213931}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

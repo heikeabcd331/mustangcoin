@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C944DDA2-46B3-38DB-B57F-6B3921FE2912}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>PerformanceTests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\EDZ\Documents\GitHub\mustangcoin\build\tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PerformanceTests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">performance_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\EDZ\Documents\GitHub\mustangcoin\build\tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PerformanceTests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">performance_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\EDZ\Documents\GitHub\mustangcoin\build\tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PerformanceTests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">performance_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\EDZ\Documents\GitHub\mustangcoin\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\src;C:\Users\EDZ\Documents\GitHub\mustangcoin\external;C:\Users\EDZ\Documents\GitHub\mustangcoin\build\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\Platform\Windows;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest;C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\..\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\platform\msc;C:\local\boost_1_69_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\EDZ\Documents\GitHub\mustangcoin\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\src;C:\Users\EDZ\Documents\GitHub\mustangcoin\external;C:\Users\EDZ\Documents\GitHub\mustangcoin\build\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\Platform\Windows;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest;C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\..\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\platform\msc;C:\local\boost_1_69_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\EDZ\Documents\GitHub\mustangcoin\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\src;C:\Users\EDZ\Documents\GitHub\mustangcoin\external;C:\Users\EDZ\Documents\GitHub\mustangcoin\build\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\Platform\Windows;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest;C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\..\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\platform\msc;C:\local\boost_1_69_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\Debug\CryptoNoteCore.lib;..\src\Debug\Serialization.lib;..\src\Debug\Logging.lib;..\src\Debug\Common.lib;..\src\Debug\Crypto.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_system-vc141-mt-sgd-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-sgd-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_thread-vc141-mt-sgd-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_date_time-vc141-mt-sgd-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_chrono-vc141-mt-sgd-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_regex-vc141-mt-sgd-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_serialization-vc141-mt-sgd-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-sgd-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_atomic-vc141-mt-sgd-x64-1_69.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/EDZ/Documents/GitHub/mustangcoin/build/tests/Debug/performance_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/EDZ/Documents/GitHub/mustangcoin/build/tests/Debug/performance_tests.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\EDZ\Documents\GitHub\mustangcoin\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\src;C:\Users\EDZ\Documents\GitHub\mustangcoin\external;C:\Users\EDZ\Documents\GitHub\mustangcoin\build\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\Platform\Windows;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest;C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\..\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\platform\msc;C:\local\boost_1_69_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\EDZ\Documents\GitHub\mustangcoin\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\src;C:\Users\EDZ\Documents\GitHub\mustangcoin\external;C:\Users\EDZ\Documents\GitHub\mustangcoin\build\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\Platform\Windows;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest;C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\..\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\platform\msc;C:\local\boost_1_69_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\EDZ\Documents\GitHub\mustangcoin\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\src;C:\Users\EDZ\Documents\GitHub\mustangcoin\external;C:\Users\EDZ\Documents\GitHub\mustangcoin\build\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\Platform\Windows;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest;C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\..\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\platform\msc;C:\local\boost_1_69_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\RelWithDebInfo\CryptoNoteCore.lib;..\src\RelWithDebInfo\Serialization.lib;..\src\RelWithDebInfo\Logging.lib;..\src\RelWithDebInfo\Common.lib;..\src\RelWithDebInfo\Crypto.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_system-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_thread-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_date_time-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_chrono-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_regex-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_serialization-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_atomic-vc141-mt-s-x64-1_69.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/EDZ/Documents/GitHub/mustangcoin/build/tests/RelWithDebInfo/performance_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/EDZ/Documents/GitHub/mustangcoin/build/tests/RelWithDebInfo/performance_tests.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\EDZ\Documents\GitHub\mustangcoin\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\src;C:\Users\EDZ\Documents\GitHub\mustangcoin\external;C:\Users\EDZ\Documents\GitHub\mustangcoin\build\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\Platform\Windows;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest;C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\..\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\platform\msc;C:\local\boost_1_69_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\EDZ\Documents\GitHub\mustangcoin\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\src;C:\Users\EDZ\Documents\GitHub\mustangcoin\external;C:\Users\EDZ\Documents\GitHub\mustangcoin\build\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\Platform\Windows;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest;C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\..\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\platform\msc;C:\local\boost_1_69_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\EDZ\Documents\GitHub\mustangcoin\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\src;C:\Users\EDZ\Documents\GitHub\mustangcoin\external;C:\Users\EDZ\Documents\GitHub\mustangcoin\build\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\Platform\Windows;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest\include;C:\Users\EDZ\Documents\GitHub\mustangcoin\external\gtest;C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\..\version;C:\Users\EDZ\Documents\GitHub\mustangcoin\src\platform\msc;C:\local\boost_1_69_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\src\Release\CryptoNoteCore.lib;..\src\Release\Serialization.lib;..\src\Release\Logging.lib;..\src\Release\Common.lib;..\src\Release\Crypto.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_system-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_thread-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_date_time-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_chrono-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_regex-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_serialization-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-s-x64-1_69.lib;C:\local\boost_1_69_0\lib64-msvc-14.1\libboost_atomic-vc141-mt-s-x64-1_69.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/EDZ/Documents/GitHub/mustangcoin/build/tests/Release/performance_tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/EDZ/Documents/GitHub/mustangcoin/build/tests/Release/performance_tests.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\CheckRingSignature.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\ConstructTransaction.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\CryptoNoteSlowHash.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\DerivePublicKey.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\DeriveSecretKey.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\GenerateKeyDerivation.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\GenerateKeyImage.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\GenerateKeyImageHelper.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\IsOutToAccount.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\MultiTransactionTestBase.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\PerformanceTests.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\PerformanceUtils.h" />
+    <ClInclude Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\SingleTransactionTestBase.h" />
+    <ClCompile Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\tests\PerformanceTests\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\build\src\Common.vcxproj">
+      <Project>{4DD8AC1D-314E-3D04-972E-252E3D3E5E7D}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\build\src\Crypto.vcxproj">
+      <Project>{8598D109-5E32-3FBA-AE77-72004545AE92}</Project>
+      <Name>Crypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\build\src\CryptoNoteCore.vcxproj">
+      <Project>{DB00FB00-65D5-3F30-8FDB-ABA8AB840EAE}</Project>
+      <Name>CryptoNoteCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\build\src\Logging.vcxproj">
+      <Project>{5A31D60B-F7AD-31DF-8B95-14B130E7D1D9}</Project>
+      <Name>Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\EDZ\Documents\GitHub\mustangcoin\build\src\Serialization.vcxproj">
+      <Project>{2DEC23C0-7C6B-3698-AE25-13E94AA0CEA9}</Project>
+      <Name>Serialization</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
