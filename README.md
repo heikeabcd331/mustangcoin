@@ -1,7 +1,6 @@
-# 介绍
-Coin Name: MustangCoin
-
-Ticker: mtc
+# MustangCoin
+## Coin Name: MustangCoin
+## Ticker: mtc
 
 PoW Algorithm: cn0 /mtc
 
